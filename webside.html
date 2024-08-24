@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Ranks Community</title>
+    <!-- Import fontu Lilita One -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+    <style>
+        body {
+            font-family: 'Lilita One', cursive;
+            background-color: #1a0033; /* Tmavofialová farba pozadia */
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Tieň za textom */
+        }
+        h1 {
+            color: #810CA8; /* Zlatá farba nadpisu */
+            margin-bottom: 20px;
+            font-size: 3em; /* Väčšia veľkosť písma */
+            position: relative;
+            display: inline-block;
+        }
+        h1::before {
+            content: attr(data-stroke);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #000000; /* Farba obrysu */
+            z-index: -1;
+            transform: translate(2px, 2px); /* Posun pre efekt obrysu */
+        }
+        h2 {
+            color: #5efc03; /* Zlatá farba nadpisu */
+            margin-bottom: 20px;
+            text-shadow: 
+                3px 3px 6px rgba(0, 0, 0, 0.8), /* Väčší tieň */
+                -1px -1px 2px rgba(0, 0, 0, 0.8); /* Pridanie "okraju" textu */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #330066; /* Tmavofialová farba pozadia kontajnera */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: #ffffff;
+            background-color: #cc0099; /* Ružová farba tlačidla */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Tieň za textom tlačidiel */
+        }
+        .button:hover {
+            background-color: #990073; /* Tmavšia ružová pri hover */
+        }
+        /* Štýl pre tlačidlo "Join Our Discord Server" */
+        .discord-button {
+            background-color: #0362fc; /* Modrá farba pre Discord tlačidlo */
+        }
+        .discord-button:hover {
+            background-color: #024bb7; /* Tmavšia modrá pri hover */
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Tieň za odkazmi */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 data-stroke="WELCOME TO DREAM RANKS COMMUNITY">WELCOME TO DREAM RANKS COMMUNITY</h1>
+
+    <div class="container">
+        <h2>Discord Server</h2>
+        <p>Welcome to Dream Ranks – DR Community! We are a dedicated team providing professional rank boosting services for Brawl Stars. Whether you aim to reach Rank 30, Master in Ranked Mode, or any other rank, our skilled team is here to help you achieve your goals.</p>
+
+        <h2>Discord Bot</h2>
+        <p>Our bot, DR - Accounts For Sale, allows you to easily sell your gaming accounts with the command <code>/sell</code>. The bot will guide you through the entire process step by step, making it simple and straightforward.</p>
+        
+        <a href="https://paypal.me/dreamranks" class="button">Subscribe to the BOT - 5€/month</a>
+        <a href="https://discord.gg/dreamranks" class="button discord-button">Join Our Discord Server</a>
+    </div>
+
+    <footer>
+        <p>If you have any questions or need support, please contact us at <a href="mailto:dreamranks.sell@gmail.com">dreamranks.sell@gmail.com</a>.</p>
+    </footer>
+
+</body>
+</html>
